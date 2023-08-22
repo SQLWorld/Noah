@@ -43,3 +43,6 @@ body::first-letter{
     }
 
 }
+ul{
+    list-style-type: none;
+}

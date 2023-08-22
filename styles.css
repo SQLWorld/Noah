@@ -1,0 +1,45 @@
+.Red{
+    color: red;
+}
+.Yellow{
+    color: yellow;
+}
+#yellowish{
+    color:darkgoldenrod;
+}
+h1{
+    background-color: aqua;
+}
+#span{
+    font-family: cursive;
+    font-style: italic;
+}
+#pic{
+    border-style:groove;
+}
+a:hover{
+    background-color:firebrick;
+    color:khaki;
+}
+html{
+    text-align: center;
+}
+.brown{
+    color:brown;
+}
+body::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+body::first-letter{
+    font-size: 2.0em
+}
+@media screen and (max-width: 1400px){
+    html{
+        font-size: 20px
+    }
+    img{
+        width: 50%
+    }
+
+}

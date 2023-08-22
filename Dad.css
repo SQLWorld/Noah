@@ -1,0 +1,29 @@
+html{
+    text-align: center;
+}
+h1{
+    background-color: red;
+}
+.dark_salmon{
+    color: darksalmon;
+}
+.Red{
+    color: red;
+}
+body::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+body::first-letter{
+    font-size: 2.0em
+}
+@media screen and (max-width: 1400px){
+    html{
+        font-size: 20px
+    }
+    img{
+        width: 50%;
+        height: 75%;
+    }
+
+}

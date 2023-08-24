@@ -18,7 +18,6 @@ h1{
     border-style:groove;
 }
 a:hover{
-    background-color:firebrick;
     color:khaki;
 }
 html{
@@ -45,4 +44,9 @@ body::first-letter{
 }
 ul{
     list-style-type: none;
+}
+ul a{
+    display: inline-block;
+    white-space:pre;
+    padding: 60px 100px;
 }

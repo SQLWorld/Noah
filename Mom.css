@@ -25,3 +25,9 @@ body::first-letter{
 ul{
    list-style-type: none;
 }
+.Red{
+   color: maroon;
+}
+.Khaki{
+   color: khaki;
+}

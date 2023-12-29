@@ -2,18 +2,19 @@ const greeting = document.getElementById("greeting");
 const myDate = new Date ();
 const myHours = myDate.getHours();
 
+
 if(myHours < 12) {
-    greeting.innerText = "Good morning!";
+    greeting.innerText = "Good morning, welcome to my page!";
 } else if (myHours < 18) {
-    greeting.innerText = "Good afternoon!";
+    greeting.innerText = "Good afternoon, welcome to my page!";
 } else{
-    greeting.innerText = "Good night!";
+    greeting.innerText = "Good night, welcome to my page!";
 }
 
 const pagePic = document.getElementById("pic");
 
 pagePic.onclick = function changeStyle(){
-    pagePic.style.transform = "rotateZ(45deg)";
+    pagePic.style.styleHover = "";
 };
 
 // Commit your changes to your local repository with git commit -am "comment"

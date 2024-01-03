@@ -30,3 +30,10 @@ body::first-letter{
 ul{
     list-style-type: none;
 }
+#pic{
+    border-style:groove;
+    transition: opacity 0.5s;
+}
+.hidden{
+    opacity: 0;
+}

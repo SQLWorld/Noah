@@ -31,3 +31,10 @@ ul{
 .Khaki{
    color: khaki;
 }
+#pic{
+   border-style:groove;
+   transition: opacity 0.5s;
+}
+.hidden{
+   opacity: 0;
+}

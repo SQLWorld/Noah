@@ -29,7 +29,7 @@ body::first-letter{
 }
 @media screen and (max-width: 1400px){
     html{
-        font-size: 20px
+        font-size: 20px;
     }
     img{
         width: 50%
@@ -41,4 +41,11 @@ ul{
 }
 .nathan{
     text-align: center;
+}
+#pic{
+    border-style:groove;
+    transition: opacity 0.5s;
+}
+.hidden{
+    opacity: 0;
 }

@@ -14,8 +14,15 @@ if(myHours < 12) {
 const pagePic = document.getElementById("pic");
 
 pagePic.onclick = function changeStyle(){
-    pagePic.style.styleHover = "";
-};
+    
+}
+const fn_pic_effect = document.querySelector(".pic-effect");
+const fn_pic_hide = document.querySelector(".hide-button");
+
+
+fn_pic_hide.addEventListener("click", () => {
+    pagePic.classList.toggle("hidden");
+});
 
 // Commit your changes to your local repository with git commit -am "comment"
 // Pull the latest changes from the central repository with git pull upstream master or git pull

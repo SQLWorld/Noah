@@ -16,6 +16,11 @@ h1{
 }
 #pic{
     border-style:groove;
+    display:inline-block;
+    transition: opacity 0.5;
+}
+.hidden{
+    opacity: 0;
 }
 a:hover{
     color:lightcoral;
@@ -38,7 +43,7 @@ body::first-letter{
         font-size: 20px
     }
     img{
-        width: 50%
+        width: 50%;
     }
 
 }
